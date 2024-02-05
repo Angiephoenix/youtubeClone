@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Refactoring the project code to FLEX styling -->
+    <nav>
+        <div class="start-section">
+            <div class="hamburger-menu icon"><img src="icons/hamburger-menu.svg" alt=""></div>
+            <div class="youtube"><img src="icons/youtube-logo.svg" alt=""></div>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="search" placeholder="Search">
+            <button class="search-button positioning"><img src="icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button positioning"><img src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="end-section">
+            <div class="upload icon positioning"><img src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="bento-menu icon positioning"><img src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications icon positioning"><img src="icons/notifications.svg" alt="">
+                <div class="tooltip">Notifications</div>
+            </div>
+            <div class="profile-pic"><img src="icons/Angie1.jpeg" alt=""></div>
+            <p>3</p>
+        </div>
+    </nav>
+
+    <aside>
+        <div class="side-link">
+            <img src="./side-links/home.svg" alt="">
+            <p>Home</p>
+        </div>
+        <div class="side-link">
+            <img src="./side-links/explore.svg" alt="">
+            <p>Explore</p>
+        </div>
+        <div class="side-link">
+            <img src="./side-links/subscriptions.svg" alt="">
+            <p>Subscriptions</p>
+        </div>
+        <div class="side-link">
+            <img src="./side-links/originals.svg" alt="">
+            <p>Originals</p>
+        </div>
+        <div class="side-link">
+            <img src="./side-links/youtube-music.svg" alt="">
+            <p>YouTube Music</p>
+        </div>
+        <div class="side-link">
+            <img src="./side-links/library.svg" alt="">
+            <p>Library</p>
+        </div>
+    </aside>
+    
+    <!-- Refactoring the project code to GRID styling -->
+    <section>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+                <p class="playtime">14:20</p>
+            </div>
+            <div class="preview-details-grid">
+                <div class="channel-pic">
+                    <img src="channel-pictures/channel-1.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183 6 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+                <p class="playtime">8:22</p>
+            </div>
+            <div class="preview-details-grid">
+                <div class="channel-pic">
+                    <img src="channel-pictures/channel-2.jpeg" alt="">
+                </div>
+                <div class="video-info">    
+                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    <p class="video-author">Markiplier</p>
+                    <p class="video-stats">19M views &#183 4 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="">
+                <p class="playtime">9:13</p>
+            </div>
+            <div class="preview-details-grid">
+                <div class="channel-pic">
+                    <img src="channel-pictures/channel-3.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                    <p class="video-author">SSSniperWolf</p>
+                    <p class="video-stats">12M views &#183 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="">
+                <p class="playtime">22:09</p>
+            </div>
+            <div class="preview-details-grid">
+                <div class="channel-pic">
+                    <img src="channel-pictures/channel-4.jpeg" alt="">
+                </div>
+                <div class="video-info">    
+                    <p class="video-title">
+                        The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                    <p class="video-author">Veritasium</p>
+                    <p class="video-stats">18M views &#183 4 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="">
+                <p class="playtime">11:17</p>
+            </div>
+            <div class="preview-details-grid">
+                <div class="channel-pic">
+                    <img src="channel-pictures/channel-5.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                    <p class="video-author">CS Dojo</p>
+                    <p class="video-stats">519K views &#183 5 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="">
+                <p class="playtime">19:59</p>
+            </div>
+            <div class="preview-details-grid">
+                <div class="channel-pic">
+                    <img src="channel-pictures/channel-6.jpeg" alt="">
+                </div>
+                <div class="video-info">    
+                    <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                    <p class="video-author">MrBeast</p>
+                    <p class="video-stats">141M views &#183 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="">
+                <p class="playtime">10:13</p>
+            </div>
+            <div class="preview-details-grid">
+                <div class="channel-pic">
+                    <img src="channel-pictures/channel-7.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+                    <p class="video-author">RealLifeLore</p>
+                    <p class="video-stats">6.6M views &#183 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="">
+                <p class="playtime">7:12</p>
+            </div>
+            <div class="preview-details-grid">
+                <div class="channel-pic">
+                    <img src="channel-pictures/channel-8.jpeg" alt="">
+                </div>
+                <div class="video-info">    
+                    <p class="video-title">
+                        Inside The World's Biggest Passenger Plane</p>
+                    <p class="video-author">Tech Vision</p>
+                    <p class="video-stats">3.7M views &#183 10 months ago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
